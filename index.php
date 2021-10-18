@@ -19,4 +19,32 @@ $penulis = "Joko Suntoro";
 echo "variabel <b>buku</b> mempunyai nilai : <b>" .$buku. "</b><br>";
 echo "variabel <b>penulis</b> mempunyai nilai : <b>" .$penulis. "</b><br><br>";
 
+#operator
+$angka1 = 100;
+$angka2 = 50;
+
+#operator penjumlahan
+$jumlah = $angka1 + $angka2;
+
+#operator pengurangan
+$kurang = $angka1 - $angka2;
+
+#operator perkalian
+$kali = $angka1 * $angka2;
+
+#operator pembagian
+$bagi = $angka1 / $angka2;
+
+#operator modulus
+$mod = $angka1 % $angka2;
+
+#yang ditampilkan browser
+echo "angka 1 = " .$angka1. "<br>";
+echo "angka 2 = " .$angka2. "<br><hr>";
+echo "angka 1 + angka 2 = " .$jumlah. "<br>";
+echo "angka 1 - angka 2 = " .$kurang. "<br>";
+echo "angka 1 x angka 2 = " .$kali. "<br>";
+echo "angka 1 : angka 2 = " .$bagi. "<br>";
+echo "Sisa hasil bagi antara angka 1 dan angka 2 adalah = " .$mod. "<br><br>";
+
 ?>
