@@ -65,6 +65,25 @@ elseif ( $a==$b ) {
     echo "a sama dengan b";
 }
 else {
-    echo "data tidak valid <br><br>";
+    echo "data tidak valid"; 
 }
+    echo "<br><br>";
+
+#struktur kendali if
+# if (kondisi) {
+#    statement
+# }
+
+#struktur kendali if..else..
+$user = "Joko";
+$pass = "1234";
+
+#yang ditampilkan browser
+if ( $user == "Joko" && $pass == "1234") {
+    echo "Anda berhasil login dengan menggunakan user $user";
+}
+else {
+    echo "Anda gagal login, silahkan cek user dan pass anda";
+}
+echo "<br><br>";
 ?>
