@@ -111,6 +111,14 @@ switch ($bulan) {
                 }
 
 # yang ditampilkan di browser
-echo "Saya lahir pada bulan sekarang, yaitu bulan <b>$hasil</b";
+echo "Saya lahir pada bulan sekarang, yaitu bulan <b>$hasil</b>";
+
+echo "<br><br>";
+
+#Pengulangan(looping)
+#Pengulangan for
+for ($i=1; $i<=5; $i++) {
+    echo "Saya sedang belajar PHP <br>";
+}
 
 ?>
