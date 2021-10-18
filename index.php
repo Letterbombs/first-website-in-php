@@ -121,4 +121,13 @@ for ($i=1; $i<=5; $i++) {
     echo "Saya sedang belajar PHP <br>";
 }
 
+echo "<br><br>";
+
+#pengulangan while
+$w = 5;
+while ($w>=1) {
+    echo "<font size = $w> Belajar PHP sangat menyenangkan </font> <br>";
+    $w--;
+}
+
 ?>
