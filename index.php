@@ -86,4 +86,31 @@ else {
     echo "Anda gagal login, silahkan cek user dan pass anda";
 }
 echo "<br><br>";
+
+#struktur kendali switch case
+$bulan = date ("m");
+switch ($bulan) {
+    case " 07 " :
+        $hasil = "Juli";
+        break;
+
+        case "08" :
+            $hasil = "Agustus";
+            break;
+
+            case "09" :
+                $hasil = "September";
+                break;
+
+                case "10" :
+                    $hasil = "October";
+                    break;
+
+                    default :
+                    $hasil = "tidak ditemukan";
+                }
+
+# yang ditampilkan di browser
+echo "Saya lahir pada bulan sekarang, yaitu bulan <b>$hasil</b";
+
 ?>
