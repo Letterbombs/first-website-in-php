@@ -19,7 +19,7 @@ $penulis = "Joko Suntoro";
 echo "variabel <b>buku</b> mempunyai nilai : <b>" .$buku. "</b><br>";
 echo "variabel <b>penulis</b> mempunyai nilai : <b>" .$penulis. "</b><br><br>";
 
-#operator
+#operator aritmatika
 $angka1 = 100;
 $angka2 = 50;
 
@@ -47,4 +47,24 @@ echo "angka 1 x angka 2 = " .$kali. "<br>";
 echo "angka 1 : angka 2 = " .$bagi. "<br>";
 echo "Sisa hasil bagi antara angka 1 dan angka 2 adalah = " .$mod. "<br><br>";
 
+#operator perbandingan
+$a = 31;
+$b = 7;
+
+#yang ditampilkan di browser
+echo "nilai a = " .$a. "<br>";
+echo "nilai b = " .$b. "<br>";
+
+if ( $a>$b ) {
+    echo "a lebih besar dari b";
+}
+elseif ( $a<$b ) {
+    echo "a lebih keccil dari b";
+}
+elseif ( $a==$b ) {
+    echo "a sama dengan b";
+}
+else {
+    echo "data tidak valid <br><br>";
+}
 ?>
